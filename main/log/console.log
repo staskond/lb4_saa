@@ -888,4 +888,83 @@ acom -O3 -e 100 -work main -2002  $dsn/src/aproximator_ua.vhd $dsn/src/aproximat
 # Compile Entity "aprox_inputbuffer"
 # Compile Architecture "beh" of Entity "aprox_inputbuffer"
 # File: c:\My_Designs\lab4_saa1\main\src\aproximator.vhd
-# Comp
+# Compile Entity "aproximator"
+# Compile Architecture "struct" of Entity "aproximator"
+# File: c:\My_Designs\lab4_saa1\main\src\aprox_top.vhd
+# Compile Entity "aprox_toplevel"
+# Compile Architecture "struct" of Entity "aprox_toplevel"
+# File: c:\My_Designs\lab4_saa1\main\src\wrapper.vhd
+# Compile Entity "wrapper"
+# Compile Architecture "behav" of Entity "wrapper"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7093 kB (elbread=1280 elab2=5663 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\lab4_saa1\main\src\wave.asdb
+#  15:06, 30 но€бр€ 2016 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/lab4_saa1/main/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/lab4_saa1/main/src/wave.asdb'.
+run 100 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /aprox_toplevel/Aproximator_1/DATA_FLOW,  Process: line__34.
+# KERNEL: stopped at time: 100 ns
+acom -O3 -e 100 -work main -2002  $dsn/src/aproximator_ua.vhd $dsn/src/aproximator_oa.vhd $dsn/src/aprox_outputbuffer.vhd $dsn/src/aprox_inputbuffer.vhd $dsn/src/aproximator.vhd $dsn/src/aprox_top.vhd $dsn/src/wrapper.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab4_saa1\main\src\aproximator_ua.vhd
+# Compile Entity "aproximator_ua"
+# Compile Architecture "beh" of Entity "aproximator_ua"
+# File: c:\My_Designs\lab4_saa1\main\src\aproximator_oa.vhd
+# Compile Entity "aproximator_oa"
+# Compile Architecture "beh" of Entity "aproximator_oa"
+# File: c:\My_Designs\lab4_saa1\main\src\aprox_outputbuffer.vhd
+# Compile Entity "aprox_outputbuffer"
+# Compile Architecture "beh" of Entity "aprox_outputbuffer"
+# File: c:\My_Designs\lab4_saa1\main\src\aprox_inputbuffer.vhd
+# Compile Entity "aprox_inputbuffer"
+# Compile Architecture "beh" of Entity "aprox_inputbuffer"
+# File: c:\My_Designs\lab4_saa1\main\src\aproximator.vhd
+# Compile Entity "aproximator"
+# Compile Architecture "struct" of Entity "aproximator"
+# File: c:\My_Designs\lab4_saa1\main\src\aprox_top.vhd
+# Compile Entity "aprox_toplevel"
+# Compile Architecture "struct" of Entity "aprox_toplevel"
+# File: c:\My_Designs\lab4_saa1\main\src\wrapper.vhd
+# Compile Entity "wrapper"
+# Compile Architecture "behav" of Entity "wrapper"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Si

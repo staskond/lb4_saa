@@ -36,13 +36,13 @@ begin
 	process (clock_i, reset_i)
 	begin
 		if (reset_i = '1') then
-			sum <= CONV_STD_LOGIC_VECTOR(2*c +1 - 2*m, width); 
-			counter <= CONV_STD_LOGIC_VECTOR(2*(a+b), width);
+			sum <= CONV_STD_LOGIC_VECTOR(c - m, width); 
+			counter <= CONV_STD_LOGIC_VECTOR(a+b, width);
 		else
 			if (falling_edge(clock_i)) then
 				if (sum_plus_a_i = '1') then 
-					sum <= sum + counter; --+ counter; 
-					counter <= counter + 2*(2*a);	  -- add our constant
+					sum <= sum + counter + counter; 
+					counter <= counter + 2*a;	  -- add our constant
 				else
 					if (sum_minus_b_i = '1') then
 						sum <= sum - 2*m; 
