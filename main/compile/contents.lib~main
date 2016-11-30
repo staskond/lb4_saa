@@ -1,4 +1,4 @@
-12
+15
 ~E 1 "./../src/aprox_inputbuffer.vhd" 6 aprox_inputbuffer
 ~A 1 "./../src/aprox_inputbuffer.vhd" 18 beh
 ~E 1 "./../src/aprox_outputbuffer.vhd" 5 aprox_outputbuffer
