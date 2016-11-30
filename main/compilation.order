@@ -1,0 +1,7 @@
+.\src\aproximator_ua.vhd
+.\src\aproximator_oa.vhd
+.\src\aprox_outputbuffer.vhd
+.\src\aprox_inputbuffer.vhd
+.\src\aproximator.vhd
+.\src\aprox_top.vhd
+.\src\wrapper.vhd

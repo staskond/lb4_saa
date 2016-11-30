@@ -1,0 +1,15 @@
+12
+~E 1 "./../src/aprox_inputbuffer.vhd" 6 aprox_inputbuffer
+~A 1 "./../src/aprox_inputbuffer.vhd" 18 beh
+~E 1 "./../src/aprox_outputbuffer.vhd" 5 aprox_outputbuffer
+~A 1 "./../src/aprox_outputbuffer.vhd" 14 beh
+~E 1 "./../src/aprox_top.vhd" 7 aprox_toplevel
+~A 1 "./../src/aprox_top.vhd" 23 struct
+~E 1 "./../src/aproximator.vhd" 7 aproximator
+~A 1 "./../src/aproximator.vhd" 25 struct
+~E 1 "./../src/aproximator_oa.vhd" 7 aproximator_oa
+~A 1 "./../src/aproximator_oa.vhd" 25 beh
+~E 1 "./../src/aproximator_ua.vhd" 5 aproximator_ua
+~A 1 "./../src/aproximator_ua.vhd" 19 beh
+~E 1 "./../src/wrapper.vhd" 5 wrapper
+~A 1 "./../src/wrapper.vhd" 19 behav

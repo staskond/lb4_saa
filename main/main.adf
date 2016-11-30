@@ -1,0 +1,64 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=main
+
+[Library]
+main=.\main\main.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+main=.
+Active_lib=
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/aproximator_ua.vhd=-1
+/aproximator_oa.vhd=-1
+/aprox_outputbuffer.vhd=-1
+/aprox_inputbuffer.vhd=-1
+/aproximator.vhd=-1
+/aprox_top.vhd=-1
+/wrapper.vhd=-1
+
+[Files.Data]
+.\src\aproximator_ua.vhd=VHDL Source Code
+.\src\aproximator_oa.vhd=VHDL Source Code
+.\src\aprox_outputbuffer.vhd=VHDL Source Code
+.\src\aprox_inputbuffer.vhd=VHDL Source Code
+.\src\aproximator.vhd=VHDL Source Code
+.\src\aprox_top.vhd=VHDL Source Code
+.\src\wrapper.vhd=VHDL Source Code
+

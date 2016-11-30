@@ -1,0 +1,35 @@
+Active-HDL 10.3.3559.6081  2016-11-30 14:49:49
+
+Elaboration top modules:
+Architecture                  struct(aprox_toplevel)
+
+
+-----------------------------------------------------------------------------------------------------
+Entity             | Architecture | Library | Info | Compiler Version          | Compilation Options
+-----------------------------------------------------------------------------------------------------
+aprox_toplevel     | struct       | main    |      | 10.3.3559.6081  (Windows) | -O3
+aprox_inputbuffer  | beh          | main    |      | 10.3.3559.6081  (Windows) | -O3
+aproximator        | struct       | main    |      | 10.3.3559.6081  (Windows) | -O3
+aprox_outputbuffer | beh          | main    |      | 10.3.3559.6081  (Windows) | -O3
+aproximator_ua     | beh          | main    |      | 10.3.3559.6081  (Windows) | -O3
+aproximator_oa     | beh          | main    |      | 10.3.3559.6081  (Windows) | -O3
+-----------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------
+VHDL Package                      | Library | Info | Compiler Version          | Compilation Options
+-----------------------------------------------------------------------------------------------------
+standard                          | std     |      |                           | <unavailable>
+TEXTIO                            | std     |      | 10.3.3559.6081  (Windows) |  -2008
+std_logic_1164                    | ieee    |      | 10.3.3559.6081  (Windows) |  -2008
+std_logic_arith                   | ieee    |      | 10.3.3559.6081  (Windows) | <unavailable>
+STD_LOGIC_SIGNED                  | ieee    |      | 10.3.3559.6081  (Windows) | <unavailable>
+STD_LOGIC_UNSIGNED                | ieee    |      | 10.3.3559.6081  (Windows) | <unavailable>
+-----------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------
+Library                           | Comment
+-----------------------------------------------------------------------------------------------------
+ieee                              | Standard IEEE packages library
+main                              | None
+std                               | Standard VHDL library
+-----------------------------------------------------------------------------------------------------

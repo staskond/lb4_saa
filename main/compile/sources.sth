@@ -1,0 +1,17 @@
+[Files List]
+C:\Aldec\Active-HDL-Student-Edition-exe\vlib\std/src/standard.vhd=S
+C:\Aldec\Active-HDL-Student-Edition-exe\vlib\std/src/textio.vhd=S
+C:\Aldec\Active-HDL-Student-Edition-exe\vlib\ieee/src/std_logic_1164.vhdl=S
+C:\Aldec\Active-HDL-Student-Edition-exe\vlib\ieee/src/std_logic_1164-body.vhdl=S
+C:\Aldec\Active-HDL-Student-Edition-exe\vlib\ieee/src/arith_p.vhd=S
+C:\Aldec\Active-HDL-Student-Edition-exe\vlib\ieee/src/arith_b.vhd=S
+C:\Aldec\Active-HDL-Student-Edition-exe\vlib\ieee/src/signed_p.vhd=S
+C:\Aldec\Active-HDL-Student-Edition-exe\vlib\ieee/src/signed_b.vhd=S
+C:\Aldec\Active-HDL-Student-Edition-exe\vlib\ieee/src/unsigned_p.vhd=S
+C:\Aldec\Active-HDL-Student-Edition-exe\vlib\ieee/src/unsigned_b.vhd=S
+c:\My_Designs\lab4_saa1\main/src/aproximator_oa.vhd=S
+c:\My_Designs\lab4_saa1\main/src/aproximator_ua.vhd=S
+c:\My_Designs\lab4_saa1\main/src/aprox_outputbuffer.vhd=S
+c:\My_Designs\lab4_saa1\main/src/aproximator.vhd=S
+c:\My_Designs\lab4_saa1\main/src/aprox_inputbuffer.vhd=S
+c:\My_Designs\lab4_saa1\main/src/aprox_top.vhd=S
