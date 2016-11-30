@@ -5,6 +5,9 @@ MESSAGE "Compile Architecture "beh" of Entity "aproximator_ua""
 MESSAGE "File: c:\My_Designs\lab4_saa1\main\src\aproximator_oa.vhd" 
 MESSAGE "Compile Entity "aproximator_oa"" 
 MESSAGE "Compile Architecture "beh" of Entity "aproximator_oa"" 
+ERROR COMP96_0029: "Expression expected." "c:\My_Designs\lab4_saa1\main\src\aproximator_oa.vhd" 41 3
+ERROR COMP96_0049: "Syntax error in expression." "c:\My_Designs\lab4_saa1\main\src\aproximator_oa.vhd" 46 5
+ERROR COMP96_0029: "Expression expected." "c:\My_Designs\lab4_saa1\main\src\aproximator_oa.vhd" 49 6
 MESSAGE "File: c:\My_Designs\lab4_saa1\main\src\aprox_outputbuffer.vhd" 
 MESSAGE "Compile Entity "aprox_outputbuffer"" 
 MESSAGE "Compile Architecture "beh" of Entity "aprox_outputbuffer"" 
@@ -20,4 +23,4 @@ MESSAGE "Compile Architecture "struct" of Entity "aprox_toplevel""
 MESSAGE "File: c:\My_Designs\lab4_saa1\main\src\wrapper.vhd" 
 MESSAGE "Compile Entity "wrapper"" 
 MESSAGE "Compile Architecture "behav" of Entity "wrapper"" 
-SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]" 
+FAILURE "Compile failure 3 Errors 0 Warnings  Analysis time :  0.3 [s]" 
