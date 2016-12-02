@@ -40,7 +40,7 @@ Active_lib=
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=
+HierarchyInformation=aprox_toplevel|struct|0  
 ShowHide=ShowTopLevel
 Selected=
 
@@ -52,6 +52,8 @@ Selected=
 /aproximator.vhd=-1
 /aprox_top.vhd=-1
 /wrapper.vhd=-1
+/untitled.asdb=-1
+/untitled.awc=-1
 
 [Files.Data]
 .\src\aproximator_ua.vhd=VHDL Source Code
@@ -62,3 +64,5 @@ Selected=
 .\src\aprox_top.vhd=VHDL Source Code
 .\src\wrapper.vhd=VHDL Source Code
 
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
