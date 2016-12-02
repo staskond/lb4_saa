@@ -41,8 +41,12 @@ begin
 		else
 			if (falling_edge(clock_i)) then
 				if (sum_plus_a_i = '1') then 
+					if (sum < 0) then 
 					sum <= sum + counter; --+ counter; 
 					counter <= counter + 2*(2*a);	  -- add our constant
+					else 
+						sum <= sum - 2*m;
+					end if;	
 				else
 					if (sum_minus_b_i = '1') then
 						sum <= sum - 2*m; 
