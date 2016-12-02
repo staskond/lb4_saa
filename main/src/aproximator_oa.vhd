@@ -41,8 +41,12 @@ begin
 		else
 			if (falling_edge(clock_i)) then
 				if (sum_plus_a_i = '1') then 
-					sum <= --TODO
-					counter <= --TODO
+					if (sum < 0) then 
+					sum <= --TODO 
+					counter <= --TODO	  -- add our constant
+					else 
+						sum <= --TODO
+					end if;	
 				else
 					if (sum_minus_b_i = '1') then
 						sum <= --TODO 
