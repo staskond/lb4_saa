@@ -36,7 +36,7 @@ begin
 	process (clock_i, reset_i)
 	begin
 		if (reset_i = '1') then
-			sum <= CONV_STD_LOGIC_VECTOR(2*c +1 - 2*m, width); 
+			sum <= CONV_STD_LOGIC_VECTOR(2*c +m - 2*m, width); 
 			counter <= CONV_STD_LOGIC_VECTOR(2*(a+b), width);
 		else
 			if (falling_edge(clock_i)) then
